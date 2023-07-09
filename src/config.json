@@ -1,0 +1,1 @@
+{"name": "test", "routes": [{"matcher": {"header": "X-mooch"}, "response": {"http_code": {"code": 302, "location": "https://omniflare.mooch.workers.dev/list"}}}, {"matcher": {"path": "^/list$"}, "response": {"http_code": {"code": 302, "location": "https://omniflare.mooch.workers.dev/list"}}}]}
